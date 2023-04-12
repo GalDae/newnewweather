@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="skip"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="나만의 옷장"
+        android:textSize="40sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/btn_half_sleeved_shirt"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/half_sleeved_shirt"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <ImageButton
+            android:id="@+id/btn_short_sleeved_shirt"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/short_sleeved_shirt"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+
+        <ImageButton
+            android:id="@+id/btn_pants"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pants"
+            tools:ignore="SpeakableTextPresentCheck" />
+        <ImageButton
+            android:id="@+id/btn_shorts"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/shorts"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/btn_hoodie"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/hoodie"
+            tools:ignore="SpeakableTextPresentCheck"/>
+        <ImageButton
+            android:id="@+id/btn_outwear"
+            android:layout_width="150dp"
+            android:layout_height="170dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/outerwear"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
